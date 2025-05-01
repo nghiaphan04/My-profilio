@@ -12,7 +12,9 @@ const cards = [
     category: 'TRAVEL',
     image: '/course4.png',
     description: 'Discover apps...',
-    width: 'w-full sm:w-[60%] md:w-[60%] lg:w-[60%]',  // Mobile responsive width
+    width: 'w-full sm:w-[60%] md:w-[60%] lg:w-[60%]',  
+    githubUrl: 'https://github.com/example/travel-app',
+  siteUrl: 'https://travel-app.example.com',
   },
   {
     id: '2',
@@ -20,7 +22,9 @@ const cards = [
     category: 'MIND',
     image: '/course1.png',
     description: 'Apps to help you pause, reflect, and stay centered.',
-    width: 'w-full sm:w-[35%] md:w-[35%] lg:w-[35%]',  // Mobile responsive width
+    width: 'w-full sm:w-[35%] md:w-[35%] lg:w-[35%]', 
+    githubUrl: 'https://github.com/example/travel-app',
+  siteUrl: 'https://travel-app.example.com',
   },
   {
     id: '3',
@@ -28,7 +32,9 @@ const cards = [
     category: 'STEPS',
     image: '/course2.png',
     description: 'Explore cities from new heights and unlock vertical challenges.',
-    width: 'w-full sm:w-[45%] md:w-[45%] lg:w-[45%]',  // Mobile responsive width
+    width: 'w-full sm:w-[45%] md:w-[45%] lg:w-[45%]',  
+    githubUrl: 'https://github.com/example/travel-app',
+  siteUrl: 'https://travel-app.example.com',
   },
   {
     id: '4',
@@ -36,7 +42,9 @@ const cards = [
     category: 'HATS',
     image: '/course3.png',
     description: 'Style your headwear like never before with this smart app.',
-    width: 'w-full sm:w-[50%] md:w-[50%] lg:w-[50%]',  // Mobile responsive width
+    width: 'w-full sm:w-[50%] md:w-[50%] lg:w-[50%]', 
+    githubUrl: 'https://github.com/example/travel-app',
+  siteUrl: 'https://travel-app.example.com',
   },
 ]
 
