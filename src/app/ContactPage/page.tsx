@@ -5,9 +5,8 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
-    <section className=" md:ms-80 md:me-30 min-h-screen text-white px-6 py-16 flex flex-col items-center justify-center">
-      <div className="max-w-6xl w-full grid grid-cols-[3fr_3fr] gap-12">
-        
+    <section className="mt-28 mb-12 md:ms-80 md:mt-0 md:mb-0 md:me-30 min-h-screen text-white px-6 md:py-32 flex flex-col items-center justify-center">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12">
         
         <ContactForm />
 

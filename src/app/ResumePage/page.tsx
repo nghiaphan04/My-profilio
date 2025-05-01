@@ -29,11 +29,13 @@ export default function ResumePage() {
   ];
 
   return (
-    <section className="min-h-screen mx-60 text-white px-6 flex flex-col items-center justify-center">
-      <div className="max-w-6xl w-full grid grid-cols-[1fr_3fr] gap-12 items-start">
+    <section className="min-h-screen px-4 pt-28 pb-12 md:px-12 md:pt-8 lg:px-24 text-white flex flex-col items-center justify-center">
+
+        <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-12 items-start">
+
         <Sidebar selected={selectedTab} onSelect={setSelectedTab} />
-        <div className="pr-3 custom-scrollbar flex flex-col h-full min-h-[400px]">
-          <div className="overflow-y-hiden pr-3 custom-scrollbar">
+        <div className=" custom-scrollbar flex flex-col h-full min-h-[400px]">
+          <div className="overflow-y-hiden  custom-scrollbar">
             {selectedTab === "Experience" && (
               <>
                 <h2 className="text-3xl font-bold mb-4">My experience</h2>
@@ -96,7 +98,7 @@ export default function ResumePage() {
                 transition={{ delay: 0.2, duration: 0.5}}
               >
                 <h2 className="text-3xl font-bold mb-4">About me</h2>
-                <p className="text-gray-400 mb-6 leading-relaxed">
+                <p className="text-gray-400 mb-6 leading-relaxed ">
                   I am a passionate full-stack developer based in Vietnam. I love building modern, responsive, and intuitive web experiences using React, Tailwind, and Node.js. I&apos;m also into blockchain and enjoy solving real-world problems with technology.
                 </p>
               </motion.div>

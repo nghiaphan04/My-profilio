@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function AvatarSpin() {
   return (
-    <div className="flex justify-end">
+    <div className="flex justify-center md:justify-end">
       <div className="relative w-64 h-64 flex items-center justify-center">
         <motion.div
           animate={{ rotate: [0, 360] }}

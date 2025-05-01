@@ -11,10 +11,10 @@ type Stat = {
 
 export default function StatsGrid() {
   const stats: Stat[] = [
-    { value: 8, label: "Technologies mastered", duration: 1300 },
-    { value: 12, label: "Years of experience", duration: 1000 },
-    { value: 26, label: "Projects completed", duration: 1500 },
-    { value: 499, label: "Code commits", duration: 1000 },
+    { value: 8, label: "Technologies mastered", duration: 2300 },
+    { value: 12, label: "Years of experience", duration: 1800 },
+    { value: 26, label: "Projects completed", duration: 1400 },
+    { value: 499, label: "Code commits", duration: 1400 },
   ];
 
   const [counts, setCounts] = useState<number[]>(stats.map(() => 0));
