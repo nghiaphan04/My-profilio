@@ -29,7 +29,7 @@ export default function ResumePage() {
   ];
 
   return (
-    <section className="min-h-screen px-4 pt-28 pb-12 md:px-12 md:pt-8 lg:px-24 text-white flex flex-col items-center justify-center">
+    <section className="min-h-screen  bg-black px-4 pt-28 pb-12 md:px-12 md:pt-8 lg:px-24 text-white flex flex-col items-center justify-center">
 
         <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-12 items-start">
 

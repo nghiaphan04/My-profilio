@@ -4,7 +4,7 @@ import StatsGrid from "../../components/StatsGrid";
 
 export default function Home() {
   return (
-    <div className="min-h-screen text-white flex flex-col justify-center items-center px-8 md:px-52 py-28">
+    <div className="min-h-screen bg-black text-white flex flex-col justify-center items-center px-8 md:px-52 py-28">
       <div className="flex flex-col md:flex-row items-center gap-10 w-full">
         <div className="md:basis-[60%] w-full">
           <ProfileIntro />

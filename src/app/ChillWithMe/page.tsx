@@ -64,7 +64,7 @@ export default function Carousel() {
   return (
     <div className="relative w-screen h-screen overflow-hidden text-white font-sans">
       {/* Slide content */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 bg-black">
         <AnimatePresence mode="wait">
           <motion.div
             key={index}
@@ -79,7 +79,7 @@ export default function Carousel() {
               width={400}
               height={400}
               alt="Slide"
-              className="w-full h-full object-cover opacity-20"
+              className="w-full h-full object-cover  opacity-20"
             />
             <div className="absolute top-[20%] left-1/2 transform -translate-x-1/2 w-4/5 md:w-3/5 text-shadow-lg">
               <motion.div

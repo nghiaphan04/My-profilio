@@ -44,7 +44,7 @@ export default function ProjectPage() {
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   return (
-    <div className="mx-4 sm:mx-10 md:mx-20 lg:mx-60 mt-20 mb-8 text-white p-6">
+    <div className="mx-4   bg-black sm:mx-10 md:mx-20 lg:mx-60 mt-20 mb-8 text-white p-6">
       <div className="flex flex-wrap gap-6 justify-center">
         {cards.map((card, index) => (
           <Card
