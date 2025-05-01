@@ -65,7 +65,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#0f0f0f] rounded-b-2xl px-6 py-4 space-y-4 text-sm font-medium text-white">
+        <div className="md:hidden bg-[#0f0f0f] rounded-2xl mt-1 px-6 py-4 space-y-4 text-sm font-medium text-white">
           {navItems.map(({ name, path }) => (
             <Link
               key={path}
